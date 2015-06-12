@@ -1,13 +1,13 @@
-**Demo website** is hosted with the latest version of **GotCms** and deploy with the **Opscode Chef coobook** [https://github.com/GotCms/gotcms-cookbook](https://github.com/GotCms/gotcms-cookbook)
+**Демонстрационный сайт** последней версии **GotCms** 
 
+Страница администраторв: [http://demo.got-cms.com/admin](http://demo.got-cms.com/admin)
 
-Admin page: [http://demo.got-cms.com/admin](http://demo.got-cms.com/admin)
+Логин: **demo**
 
-Login: **demo**
+Пароль: **demo**
 
-Password: **demo**
-
-
-Frontend page: [http://demo.got-cms.com](http://demo.got-cms.com)
+Домашняя станица: [http://demo.got-cms.com](http://demo.got-cms.com)
 
 **The server resets every 30 minutes!**
+
+Для равзертывания можно использовать **Opscode Chef coobook** [https://github.com/GotCms/gotcms-cookbook](https://github.com/GotCms/gotcms-cookbook)
