@@ -1,31 +1,31 @@
-# An overview of features
+# Обзор возможностей
 
-## Unlimited hierarchically structured page navigation menu
+## Неограниченная иерархическая структура меню навигации
 
-The page navigation menu provides critical information and functions. It allows you to quickly perform common actions on pages and shows how information has been organized.
+Меню навигации по страницам обеспечивает критически важну. информацию и функционал. Это позволяет вам быстро выполнять основные операции со страницами и показывает как информация была организована.
 
-## Drag and drop page ordering
+## Drag and drop механизм реорганизации и сортировки страниц
 
-This function simplifies the organization of your site’s pages. It makes new sorting arrangements of pages possible.
+Эта функция упрощает организацию страниц вашего сайта. Это дает наилучшие условия для сортировки страниц, какие только возможны.
 
-## Flexible page content: body, sidebar, extended, summary
+## Гибкий контент страницы: тело страницы (body), боковая панель (sidebar), расширения (extended), краткое описание или аннотация (summary)
 
-Each page can have its own customized parts (divisions). It can be ‘extended’ text for news, or ‘summary’ for article: you can define whatever you want, whenever you want. These can even be used for extended metadata fields.
+Каждая страницы божет быть свои персонализированные части (divisions). Это может быть расширенный текст (‘extended’ text) для новостей, или краткое описание (summary) для статьи, которые вы можете задавать когда угодно и где угодно. Это может быть использовано в том числе и для расширенных полей метаданных.
 
-## Per page layout customization
+## Персональная настройка компоновки элементов страниц (page layout) для каждой страницы
 
-Pages can have their own layout. This allows the site owner to make every page look _exactly_ as desired.
+Каждая страница может иметь свою соственную компоновку (page layout). Это позволяет разработчику сайта для каждой страницы такой внешний вид, которы пожелает владелец.
 
-## Simple and reusable content
+## Простой и многократно используемый контент
 
 You can define "views": small pieces of content used across several pages, like page headers or footers, navigation, breadcrumbs, or contact info, etc. This means less cut-and-paste text in your pages. This will reduce your modification time when you need to add, remove or change the text in it.
 
-## Customize the backend
+## Расширение функционала административной части
 
-Modules and plugins allow you to customize backend content via some observer and custom models, views and controllers.
+Модули и плагины позволяют вам менять функционал административной части сайта добавлением наборов видов, моделей и контроллеров.
 
-## Password protected administration
+## Защищенный паролем доступ в административный интерфейс
 
-## Simple user and permission management
+## Простое администрирование пользователей и прав их доступа к функционалу в административной части сайта
 
-## File manager allows you to upload, browse and edit files
+## Файловый менеджер позволяет вам загрузать, просматривать и редактировать файлы на сайте.
