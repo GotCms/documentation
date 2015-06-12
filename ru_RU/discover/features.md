@@ -22,7 +22,7 @@ You can define "views": small pieces of content used across several pages, like 
 
 ## Customize the backend
 
-Modules and plugins allow you tu customize backend content via some observer and custom models, views and controllers.
+Modules and plugins allow you to customize backend content via some observer and custom models, views and controllers.
 
 ## Password protected administration
 
