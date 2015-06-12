@@ -1,19 +1,17 @@
-# Requirements
+# Требования к хостингу
 
-To run GotCms, your system needs to have:
+Для запуска **GotCms**, ваша система должна иметь:
 
-* [PHP](http://www.php.net/): **version 5.3** or greater
-* [MySQL](http://www.mysql.com/) **version 5.x** or greater or [PostgreSQL](http://www.postgresql.org/) **version 8.4** or greater
-* Native **PDO** support
-* A web server that supports PHP like Apache, Nginx or cherokee.
+* [PHP](http://www.php.net/): **версии 5.3** или выше
+* [MySQL](http://www.mysql.com/) **версии 5.x** или выше или [PostgreSQL](http://www.postgresql.org/) **версии 8.4** или выше
+* Поддержку **PDO**
+* Веб-сервер с поддержкой PHP, такой как Apache, Nginx или Cherokee.
 
-## About the web server and clean urls
+## О веб сервере
 
-During development of GotCms and in creating our documentation, we always assume you’ll be running the Apache web server. However, this does not mean GotCms only runs on Apache.
+В процессе разработки **GotCms** и создания документации, мы все время полагали что вы будете использовать веб-сервер Apache. Однако это не значит, что **GotCms** может работать только на нем. В принципе любой веб-сервер, поддерживающий PHP может быть использовать с одинаковым успехом.
 
-In prinicple any web server that supports PHP can be used.
-
-In the case of Apache, the rewrite rules and other options in the .htaccess file will only work, if you have at least the following in your VirtualHost’s configuration file:
+В случае с веб-сервером Apache, на нем должен быть установлен mod_rewrite и для должны быть заданы соответствующие опции и правила в .htaccess. Файл конфигурации виртуального хоста для веб-сервера Apache может иметь следующее содержание:
 
 ```
 <VirtualHost *:80>
@@ -35,7 +33,7 @@ In the case of Apache, the rewrite rules and other options in the .htaccess file
 </VirtualHost>
 ```
 
-## GotCms is known to work with
+## Проверено что GotCms работает с:
 
 * MySQL ([http://www.mysql.com/](http://www.mysql.com/))
 * PostgreSQL ([http://www.postgresql.org/](http://www.postgresql.org/))
