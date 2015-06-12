@@ -1,14 +1,14 @@
-# Datatypes
+# Типы данных (Datatypes)
 
-Datatype or simply type is a classification identifying one of various types of data, such as text field, integer, boolean or file upload, that determines the possible values for that type.
+Тип данных или просто тип это классификационный идентификатор одного из различных типов вводимой информации, таких как "текстове поле" (text field), целое число (integer), булево значение (boolean) или имя файла для загрузки на сервер (file upload), который опреедляет допустимые значения для этого типа. ОДно из начначений типов данных - задавать валидаторы для поле, добавляемых в формы интерфейса.
 
-In this case, Datatype needs three classes to works:
+Класс "Тип данных" (Datatype) требует наличия следующих трех классов:
 
 * Datatype as Bootstrap
 * PrevalueEditor as Configuration
 * Editor as Content part
 
-Replace all texts in this **<span style="color:#FF9900;">color</span>** with the name you want to use for your datatype and classes must be added in "library/Datatypes/**<span style="color:#FF9900;">DatatypeName</span>**" directory.
+Replace all texts in this **<span style="color:#FF9900;">color</span>** with the name you want to use for your datatype and classes must be added in "library/Datatypes/**<span style="color:#FF9900;">DatatypeName</span>**" directory. (I think it will be good to explain where is this code placed. More information required.).
 
 ##Bootstrap
 
@@ -121,14 +121,14 @@ class Editor extends AbstractEditor
 }
 ```
 
-##Informations file
+##Конфигурационныq файл (Informations file)
 
-You also can add an datatype.ini file to specify:
+Вы так же можете добавить datatype.ini файл для определения:
 
-*   version (string)
-*   author (string)
-*   date (string)
-*   description (string)
-*   cms_version (string)
-*   website (link)
-*   database_compatibility (array)
+*   версии - version (string)
+*   автора - author (string)
+*   даты - date (string)
+*   краткого описания типа данных - description (string)
+*   версии CMS - cms_version (string)
+*   ссылки на сайт автора - website (link)
+*   данных о совместимости баз данных - database_compatibility (array)
