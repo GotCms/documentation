@@ -121,7 +121,7 @@ class Editor extends AbstractEditor
 }
 ```
 
-##Конфигурационныq файл (Informations file)
+##Информационный файл (Informations file)
 
 Вы так же можете добавить datatype.ini файл для определения:
 
