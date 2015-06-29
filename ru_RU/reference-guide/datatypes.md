@@ -8,7 +8,7 @@
 * PrevalueEditor as Configuration
 * Editor as Content part
 
-Replace all texts in this **<span style="color:#FF9900;">color</span>** with the name you want to use for your datatype and classes must be added in "library/Datatypes/**<span style="color:#FF9900;">DatatypeName</span>**" directory. (I think it will be good to explain where is this code placed. More information required.).
+Replace all texts in this **<span style="color:#FF9900;">color</span>** with the name you want to use for your datatype and classes must be added in "library/Datatypes/**<span style="color:#FF9900;">DatatypeName</span>**" directory.
 
 ##Bootstrap
 
