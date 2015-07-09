@@ -1,12 +1,12 @@
 # Scripts
 
-Scripts allow you to writing PHP code in order to used as a controller but in this case it can return what it wants.
+Скрипты (Scripts) позволяют вам писать PHP код для использования его как контроллера но в этом случае он просто возвращает значения в вид.
 
-The aim of the scripts is not pollute views in providing the capability to get "_**Params**_'', "_**Response**_", "_**Request**_" et use "_**Plugins**_".
+Цель скриптов не допускать засорения кода видов при использовании возможностей "_**Params**_'', "_**Response**_", "_**Request**_"  и использования "_**Plugins**_".
 
 ##Plugins
 
-So you can use Zend controller plugins:
+Вы можете использовать стандартные плагины контроллеров Zend:
 
 *   [_AcceptableViewModelSelector_](http://framework.zend.com/manual/2.1/en/modules/zend.mvc.plugins.html#zend-mvc-controller-plugins-acceptableviewmodelselector)
 *   [_FlashMessenger_](http://framework.zend.com/manual/2.2/en/modules/zend.mvc.plugins.html#zend-mvc-controller-plugins-flashmessenger)
@@ -20,32 +20,32 @@ So you can use Zend controller plugins:
 
 ##Request, Response and Service Manager
 
-Method "**getRequest**" return an instance of **Zend\Http\PhpEnvironment\Request**.
+Метод "**getRequest**" возвращает экземпляр класса **Zend\Http\PhpEnvironment\Request**.
 
-"**getResponse**" an instance of **Zend\Http\PhpEnvironment\Response**.
+"**getResponse**"  - экземпляр класса **Zend\Http\PhpEnvironment\Response**.
 
-**"getServiceLocator"** an instance of **Zend\ServiceManager\ServiceManager**.
+**"getServiceLocator"** - экземпляр класса **Zend\ServiceManager\ServiceManager**.
 
 &nbsp;
 
 ##Params
 
-If you need, you can pass parameters to script.
+Если вам необходимы, то вы можете передавать параметры в скрипт из вида.
 
-In your view:
+Для этого в виде задаете:
 
 ```php
 $return = $this->script('myScript', array('myParam' => true));
 ```
 
-In your script
+а в скрпите используете
 
 ```php
 $this->getParam('myParam');
 ```
 
 
-##Example
+##Пример
 
 ```php
 $request = $this->getRequest();
